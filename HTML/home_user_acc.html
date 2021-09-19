@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>InstaShop</title>
+        <script src="script.js"></script>
+        <link rel="shortcut icon" href="images/logo.png"/>
+        <link rel="stylesheet" href="css/style.css">
+        <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--TODO check out the <base> element-->
+    </head>
+
+
+    <body>
+        <div class="header">
+            <a href="#default" class="logo">
+                <img src="images/logoresized.png" alt="logo">
+            </a>
+            <div class="header-right">
+                <a href="#account" class="account_icon" style="background-color: transparent;">
+                    <img src="images/account_icon.png" alt="Account Icon"/>
+                </a>
+                <a href="#recommended">Recommended</a>
+                <a href="#popular_shops">Popular Shops</a>
+                <a href="#recent_posts">Recent Posts</a>
+            </div>
+        </div>
+
+
+        <div class="central_region">
+            <h1 class="welcome_text">Browse Tanzanian instagram merchants and shops, effortlessly!</h1>
+            <input class="search_bar" type="text" placeholder="Search profiles, tags or locations..."
+            onfocus="this.placeholder = ''"
+            onblur="this.placeholder = 'Search profiles, tags or locations...'" />
+        </div>
+
+        <?php include('footer.php') ?>
+    </body>
+</html>

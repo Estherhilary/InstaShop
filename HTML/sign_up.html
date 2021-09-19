@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>InstaShop</title>
+        <script src="script.js"></script>
+        <link rel="shortcut icon" href="images/logo.png"/>
+        <link rel="stylesheet" href="/css/style.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cookie">
+        <script src="https://kit.fontawesome.com/2f584dc372.js" crossorigin="anonymous"></script>
+        <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--TODO check out the <base> element-->
+    </head>
+
+    <body>
+        <header class="header">
+            <div class="header-left">
+                <i class="fas fa-bars menu_icon"></i>        
+                <a href="index.html" class="logo logo_link" style="font-family: 'Cookie';">InstaShop</a>
+            </div>
+        </header>
+
+        <form class="sign_up_form main">
+            <h1>Sign up!</h1>
+            
+            <label for="fname" class="form_labels"><b>First Name:</b></label>
+            <input type="text" placeholder="Enter first name" name="fname" 
+            required class="input_bar sign_up_bar"
+            onfocus="this.placeholder = ''"
+            onblur="this.placeholder = 'Enter first name'">
+
+            <label for="lname" class="form_labels"><b>Last Name:</b></label>
+            <input type="text" placeholder="Enter last name" name="lname"
+            required class="input_bar sign_up_bar"
+            onfocus="this.placeholder = ''"
+            onblur="this.placeholder = 'Enter last name'">
+
+            <label for="mobile_number" class="form_labels"><b>Mobile Number:</b></label>
+            <input type="tel" placeholder="Enter mobile number" name="mobile_number" 
+            required class="input_bar sign_up_bar"
+            onfocus="this.placeholder = ''"
+            onblur="this.placeholder = 'Enter mobile number'">
+
+            <div class="user_agreement">
+                <input type="checkbox" name="agreement_terms">
+                <label for="agreement_terms">
+                    By checking this box, you agree that you have read and 
+                    understood the terms and conditions of our services
+                </label>
+            </div>
+            <button id="sign_up_button" type="submit">SIGN UP</button>
+        </form>
+
+        <div class="footer">
+            <nav class="footer_links text_link footer-left">
+                <a href="about_us.html" class="footer_link white_hover  link_text">About us</a>
+                <a href="privacy_policy.html" class="footer_link white_hover link_text">Privacy Policy</a>
+                <a href="contact_us.html" class="footer_link white_hover link_text">Contact Us</a>
+            </nav>
+            
+            <nav class="social_media footer-right"> <!--TODO Remove personal accounts from links-->
+                <a href="https://www.facebook.com/profile.php?id=100017352248197#facebook" class="social_icon icon_link" id="facebook">
+                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                </a>
+                <a href="#whatsapp" class="social_icon icon_link" id="whatsapp">
+                    <i class="fa fa-whatsapp" aria-hidden="true"></i>
+                </a>                
+                <a href="#instagram" class="social_icon icon_link" id="instagram">
+                    <i class="fa fa-instagram" aria-hidden="true"></i>               
+                </a>
+            </nav>
+        </div>       
+    </body>
+</html>
