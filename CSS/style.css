@@ -6,12 +6,6 @@ html {
     width: 100%;
 }
 
-@media (max-width: 600px) {
-  .column {
-    width: 50%;
-  }
-}
-
 
 body {
     margin: 1rem 0;
