@@ -6,11 +6,7 @@ html {
     width: 100%;
 }
 
-@media (max-width: 600px) {
-  html {
-    width: 50%;
-  }
-}
+
 
 body {
     margin: 1rem 0;
