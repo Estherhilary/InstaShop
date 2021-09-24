@@ -3,6 +3,13 @@ html {
     background: url('BackgroundImage.jpg') no-repeat center fixed;
     background-size: cover;
     font-size: 16px;
+    width: 100%;
+}
+
+@media (max-width: 600px) {
+  html {
+    width: 50%;
+  }
 }
 
 body {
